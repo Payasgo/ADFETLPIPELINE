@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "Adfpipelinemanagementblob"
+		},
+		"AzureDataLakeStorage_accountKey": {
+			"value": ""
+		},
+		"SqlServer1_connectionString": {
+			"value": "Integrated Security=False;Data Source=YARLAGADDA;Initial Catalog=EMPLOYEE;User ID=kky"
+		},
+		"AzureDataLakeStorage_properties_typeProperties_url": {
+			"value": "https://copyoffiles.dfs.core.windows.net/"
+		},
+		"KEY_AzureKeyVault_properties_typeProperties_baseUrl": {
+			"value": "https://storedthekey.vault.azure.net/"
+		}
+	}
+}
