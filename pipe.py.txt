@@ -1,0 +1,20 @@
+import pyodbc
+
+conn = None
+cur = None
+
+try:
+    conn = pyodbc.connect()
+except:
+    pass
+else:
+    pass
+    
+finally:
+    if cur!=none:
+        cur.close()
+    
+    if conn!=None:
+        conn.close()
+        
+        
