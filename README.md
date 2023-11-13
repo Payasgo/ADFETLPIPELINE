@@ -1,0 +1,3 @@
+# ADFETLPIPELINE
+
+FLOW GRAPH FOR ETL PROJECT ![Adfpipeline](https://github.com/Payasgo/ADFETLPIPELINE/assets/138502330/bacff13e-40c3-48c1-8a04-62740f322c3d)
