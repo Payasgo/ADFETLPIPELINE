@@ -1,0 +1,9 @@
+{
+	"name": "Adfpipelinemanagementblob",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "860fea97-f07d-4b10-a1b8-ea4df90a029f",
+		"tenantId": "2db0e13c-89f2-4a67-88ce-504c6fb70607"
+	}
+}
