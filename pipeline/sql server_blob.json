@@ -1,0 +1,9 @@
+{
+	"name": "sql server_blob",
+	"properties": {
+		"folder": {
+			"name": "sql_blob"
+		},
+		"annotations": []
+	}
+}
