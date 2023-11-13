@@ -1,0 +1,12 @@
+{
+	"name": "Ds_COpy_all_tablea_SqlServerTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServer1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": []
+	}
+}
