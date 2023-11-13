@@ -1,0 +1,19 @@
+{
+	"name": "PROD_Parquet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "PROD_AzureDataLakeStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "sqlserver"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
