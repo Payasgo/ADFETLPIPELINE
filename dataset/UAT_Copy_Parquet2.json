@@ -1,0 +1,35 @@
+{
+	"name": "UAT_Copy_Parquet2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "UAT_AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"SchemaName": {
+				"type": "string"
+			},
+			"TableName": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@{concat(dataset().TableName,'.parquet')}",
+					"type": "Expression"
+				},
+				"folderPath": {
+					"value": "@{concat(dataset().SchemaName, '/', dataset().TableName)}",
+					"type": "Expression"
+				},
+				"fileSystem": "sqlserver"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}

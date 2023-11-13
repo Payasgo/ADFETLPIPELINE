@@ -1,0 +1,10 @@
+{
+	"name": "UAT_AzureKeyVault",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://storedthekey.vault.azure.net/"
+		}
+	}
+}
